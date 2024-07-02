@@ -1,0 +1,39 @@
+/* pages/page1/page1.wxss */
+.page{
+  height:100%
+}
+.weui-label{
+  width:5em
+}
+.weui-cell__hd{
+  font-size: 0.8rem;
+  height: 1rem;
+}
+.weui-form__control-area{
+  margin: 2em 0 1em 0;
+}
+.weui-form__extra-area{
+  margin: 1em 0 1em 0;
+}
+.weui-form__opr-area{
+  margin-top: 1em;
+}
+.sv1{
+  width: 96%;
+  height: 16em;
+  background-color: rgb(247, 238, 227);
+  margin: 0 2%;
+  padding-left: 1em;
+  border-radius: 1em;
+}
+.button-sp-area{
+  display:flex;    /*设置为flex布局*/
+  justify-content: center; /*水平居中*/
+  margin: 0 5em 1em 5em;
+}
+.weui-btn weui-btn_mini weui-btn_primary weui-wa-hotarea{
+  margin: 1em;
+}
+
+
+

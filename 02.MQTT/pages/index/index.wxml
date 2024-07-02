@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<navigation-bar title="Welcome" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="vw1">
+    <image src="../images/1.jpg"></image>
+  </view>
+  <view class="vw2">
+    <form bindsubmit='loginForm'>
+    <input type='password' name='password' placeholder=""></input>
+    <button formType="submit" type='primary'>登入</button>
+    </form>
+  </view>
+  
+  
+  
+</scroll-view>
