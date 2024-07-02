@@ -1,0 +1,35 @@
+/**index.wxss**/
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.scrollarea {
+  flex: 1;
+  overflow-y: hidden;
+}
+.vw1{
+  display:flex;    /*设置为flex布局*/
+  justify-content: center; /*水平居中*/
+}
+.vw2{
+  display:flex;    /*设置为flex布局*/
+  justify-content: center; /*水平居中*/
+}
+input{
+  font-size: 2em;
+  width: 6em;
+  height: 3rem;
+  border-bottom: 1px solid gray;
+  margin: 2em 0;
+}
+button{
+  font-weight: 500;
+}
+image{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1em;
+  margin: 7rem 0 3rem 0;
+}
+
